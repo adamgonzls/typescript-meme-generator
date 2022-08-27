@@ -1,0 +1,26 @@
+.form-container {
+  padding-bottom: 2em;
+}
+
+.form {
+  display: grid;
+  grid-template: 3em 3em / 1fr 1fr;
+  gap: 1em;
+}
+
+.input-container input {
+  padding: 1em;
+  border-radius: var(--brand-corners--rounded);
+  border: 1px solid var(--grey);
+  width: 100%;
+}
+
+button {
+  border-radius: var(--brand-corners--rounded);
+  border: none;
+  padding: 1em;
+  color: var(--white);
+  grid-column: 1 / -1;
+  background: linear-gradient(var(--brand-gradient));
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  --white: rgb(237, 229, 228);
+  --brand-color--dark: hsl(283, 65%, 31%);
+  --brand-color--light: hsl(283, 75%, 46%);
+  --grey: hsl(25, 10%, 60%);
+
+  --brand-gradient: to right, var(--brand-color--dark),
+    var(--brand-color--light);
+  --brand-corners--rounded: 9px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* margin: 0; */
+}
+
+h1 {
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
